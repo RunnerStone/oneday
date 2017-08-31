@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: oneday
 Implementation-Version: 1
-Built-By: I317056
+Built-By: leixu
 Implementation-Vendor-Id: org.springframework
-Build-Jdk: 1.8.0_45
+Build-Jdk: 1.8.0_144
 Implementation-URL: http://projects.spring.io/spring-boot/oneday/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.

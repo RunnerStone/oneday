@@ -1,8 +1,0 @@
-com\example\mongo\util\TenantProvider.class
-com\example\mongo\util\TenantProviderFilter.class
-com\example\mongo\Application.class
-com\example\mongo\models\Person.class
-com\example\mongo\ServletInitializer.class
-com\example\mongo\models\PersonRepository.class
-com\example\mongo\controller\PersonController.class
-com\example\mongo\controller\DefaultController.class

@@ -24,7 +24,7 @@ import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import com.oneday.models.Person;
-import com.oneday.models.PersonRepository;
+import com.oneday.services.PersonRepository;
 
 @RestController
 @RequestMapping(path = PersonController.PATH)
@@ -32,6 +32,7 @@ import com.oneday.models.PersonRepository;
 @Validated
 public class PersonController {
 	public static final String PATH = "/api/v1.0/person";
+	@Autowired
 	private PersonRepository personRepository;
 	private MongoTemplate mongoTemplate;
 
