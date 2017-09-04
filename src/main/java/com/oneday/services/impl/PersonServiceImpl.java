@@ -1,4 +1,4 @@
-package com.oneday.services;
+package com.oneday.services.impl;
 
 import java.util.List;
 
@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.oneday.models.Person;
 import com.oneday.repository.PersonRepository;
+import com.oneday.services.IPersonService;
 
 @Service
 public class PersonServiceImpl implements IPersonService {
