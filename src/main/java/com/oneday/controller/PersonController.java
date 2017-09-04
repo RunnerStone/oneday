@@ -31,7 +31,7 @@ public class PersonController {
 		this.personService = personServicey;
 	}
 
-	@GetMapping(path = "/")
+	@GetMapping
 	public Iterable<Person> persons() {
 		return personService.findAllPerson();
 	}
