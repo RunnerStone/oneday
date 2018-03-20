@@ -37,7 +37,6 @@ public class DefaultController {
 		if(y==x) {
 			return true;
 		}
-
 		return false;
 	}
 
